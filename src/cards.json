@@ -1,85 +1,56 @@
 [{
         "id": 1,
-        "name": "SpongeBob",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-        "occupation": "Fry Cook",
-        "location": "A Pineapple Under the Sea"
+        "image": "https://lh5.googleusercontent.com/proxy/A-09LLfzvCl4XKRxYTw6N32Ln_J409zqNsaoxBppieOq315e3DT31vMmP16WIg9CNHyn9-nJ1z4x-ictmN-l3YGAWGJ7",
+        "occupation": "basketball",
+        "location": "Kobe"
     },
     {
         "id": 2,
-        "name": "Mr. Krabs",
-        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-        "occupation": "Restaurant Owner",
-        "location": "A Giant Anchor"
+        "image": "https://res-5.cloudinary.com/ybmedia/image/upload/c_crop,h_1125,w_2000,x_0,y_59/c_fill,f_auto,h_495,q_auto,w_880/v1/m/2/e/2e73167b3e008db7eeecc2f70aa38fecdc325c7d/11356277.jpg",
+        "occupation": "basketball",
+        "location": "Lebron"
     },
     {
         "id": 3,
-        "name": "Squidward",
-        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-        "occupation": "Cashier",
-        "location": "An Easter Island Head"
+        "image": "https://img.bleacherreport.net/img/images/photos/003/847/515/hi-res-8147e1c7872f155396cbd5ee26063d4d_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
+        "occupation": "basketball",
+        "location": "davis"
     },
     {
         "id": 4,
-        "name": "Dexter",
-        "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-        "occupation": "Boy Genius",
-        "location": "A Secret Laboratory"
+        "image": "https://pbs.twimg.com/media/DyDqaisWoAEgQ-W?format=jpg&name=medium",
+        "occupation": "basketball",
+        "location": "Klay"
     },
     {
         "id": 5,
-        "name": "Courage",
-        "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-        "occupation": "A Cowardly Dog",
-        "location": "Nowhere, Kansas"
+
+        "image": "https://www.talkbasket.net/wp-content/uploads/2019/07/https-_hypebeast.com_image_2018_08_kawhi-leonard-los-angeles-lakers-over-tornto-raptors-001.jpg",
+        "occupation": "basketball",
+        "location": "Kawhi"
     },
     {
         "id": 6,
-        "name": "Doug Funnie",
-        "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-        "occupation": "Student",
-        "location": "Bluffington"
+        "image": "https://pbs.twimg.com/media/CQLOUhuWUAALcCA?format=jpg&name=medium",
+        "occupation": "basketball",
+        "location": "KD"
     },
     {
         "id": 7,
-        "name": "Bugs Bunny",
-        "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-        "occupation": "Looney Toon",
-        "location": "A Rabbit Burrow"
+        "image": "https://itsgame7.com/wp-content/uploads/2019/09/devinbooker-714x405.jpg",
+        "occupation": "basketball",
+        "location": "booker"
     },
     {
         "id": 8,
-        "name": "Johnny Bravo",
-        "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-        "occupation": "Ladies Man",
-        "location": "Aron City"
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8487cc67881697.5b49254e2687b.jpg",
+        "occupation": "basketball",
+        "location": "dame"
     },
     {
         "id": 9,
-        "name": "Tommy Pickles",
-        "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-        "occupation": "Adventurer",
-        "location": "California"
-    },
-    {
-        "id": 10,
-        "name": "Rocko",
-        "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-        "occupation": "Cashier",
-        "location": "O-Town, California"
-    },
-    {
-        "id": 11,
-        "name": "Captain Planet",
-        "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-        "occupation": "Superhero",
-        "location": "Earth"
-    },
-    {
-        "id": 12,
-        "name": "Ickis",
-        "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-        "occupation": "Ahhhh! A Real Monster!",
-        "location": "Under a City Dump"
+        "image": "https://www.opencourt-basketball.com/wp-content/uploads/2017/04/paul-george-lakers.jpg",
+        "occupation": "basketball",
+        "location": "PG"
     }
 ]

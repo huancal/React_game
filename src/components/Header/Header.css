@@ -1,8 +1,8 @@
-.wrapper {
+.header {
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 50px;
-    background: rgb(75, 109, 223);
+    background: rgb(118, 17, 158);
     height: 100%;
     width: 60%;
     display: flex;
@@ -13,11 +13,11 @@
     overflow: auto;
 }
 
-.wrapperShake {
+.headerShake {
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 50px;
-    background: rgb(75, 109, 223);
+    background: rgb(202, 174, 12);
     height: 100%;
     width: 60%;
     display: flex;

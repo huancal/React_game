@@ -13,7 +13,7 @@
     height: 100%;
     overflow: hidden;
     text-align: center;
-    background: #6CADDC;
+    background: rgb(153, 140, 18);
 
 }
 
@@ -24,7 +24,7 @@
 }
 
 .img-thumbnail:hover {
-    background-color: red;
+    background-color: rgb(118, 17, 158);
     opacity: 0.5;
 }
 

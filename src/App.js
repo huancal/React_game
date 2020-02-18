@@ -6,6 +6,7 @@ import "./App.css";
 
 
 
+
 class App extends Component {
   //  setting this.state to images array
   state = {
@@ -54,10 +55,10 @@ class App extends Component {
       return (
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Welcome to React Click Game </h1>
+            <h1 className="App-title">Welcome to Laker GM React Game </h1>
           </header>
           <h3 className="App-intro">
-            <strong>Click on an image to earn points, add to your total by clicking on a unique image each turn. You lose if the same image is clicked twice</strong>
+            <strong>Click on an Laker to earn points, add to your total by clicking on a unique player each turn. You lose if the same player is clicked twice</strong>
             <p className="score"><strong>SCORE: {this.state.score}   | TOPScore: {this.state.topScore}</strong></p>
             <p className="message"><strong>{this.state.message}</strong></p>
           </h3>
