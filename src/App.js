@@ -1,48 +1,38 @@
-import React, {Component} from 'react'
-import './App.css';
-import Img from './components/Img';
-import { file } from '@babel/types';
+import React, { Component } from 'react'
+import cards from "./cards.json";
+import Header from "./components/Header";
+import Images from "./components/Images";
+import "./App.css";
 
-let fileList = [
-  {
-    path: "japan",
-    clicked: false
-  },
-  {
-    path: "japan2",
-    clicked: false
-  },
-]
-let deepNewFileList= new Array(...fileList)
-class App extends Component{
-  state = {
-    fileList:fileList
-  }
-  handleClick = (value) => {
-    console.log(value)
-    let changeDex = fileList.findIndex(elem => `${ elem.path }.jpg` == value)
-    console.log(changeDex)
-    if (!fileList[changeDex.clicked]) {
-      console.log("first time")
-      fileList[changeDex].clicked=true
-      console.log(fileList[changeDex])
-    } else {
-      console.log("too much")
-    }
-  }
-  render=function(){
-    
-    return(
+
+
+ class App extends Component {
+  
+   
+   
+   
+   render() {
+    return (
       <div className="App">
-        {fileList.map((val, dex) => {
-          return (
-            <Img handler={this.handleClick} key={dex} source={`${val.path}.jpg`} />
-          )
-        })}
-      
+        <header className="App-header">
+          <h1 className="App-title">Welcome to React Click Game </h1>
+        </header>
+        <h3 className="App-intro">
+          <strong>Click on an image to earn points, add to your total by clicking on a unique image each turn. You lose if the same image is clicked twice</strong>
+          <p className ="score"><strong>SCORE:    | TOPScore:</strong></p>
+          <p className= "message"></p>
+        </h3>
+
+
+
+
+
+
+
       </div>
-    );
+    )
   }
 }
 
-export default App;
+
+export default App; 
