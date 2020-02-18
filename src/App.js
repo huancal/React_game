@@ -20,10 +20,10 @@ class App extends Component {
   // img click function
    
   clickPicture = id => {
-    let shuffledImg = this.shuffledImg(cards);
+    const shuffledImg = this.shuffledImg(cards);
     this.setState({ cards: shuffledImg });
 
-    if (this.state.shuffledImg.includes(id)) {
+    if (this.state.clickedArr.includes(id)) {
       this.setState({ score: 0, clickedArr: [], message: "Brick! You lose! Click on an image to start over! ", shakeit: "true" });
     }
 
