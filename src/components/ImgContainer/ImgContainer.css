@@ -1,4 +1,4 @@
-.header {
+.ImgContainer {
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 50px;
@@ -13,7 +13,7 @@
     overflow: auto;
 }
 
-.headerShake {
+.ImgShake {
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 50px;

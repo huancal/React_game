@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import cards from "./cards.json";
-import Header from "./components/Header";
 import Images from "./components/Images";
 import "./App.css";
+import ImgContainer from './components/ImgContainer';
 
 
 
@@ -41,6 +41,8 @@ class App extends Component {
       this.setState({ topScore: this.state.score })
     }
   }
+
+  // shuffling images randomnly 
     shuffledImg = (picturesArr) => {
       
       for (let i = picturesArr.length - 1; i > 0; i--){
@@ -62,7 +64,7 @@ class App extends Component {
             <p className="score"><strong>SCORE: {this.state.score}   | TOPScore: {this.state.topScore}</strong></p>
             <p className="message"><strong>{this.state.message}</strong></p>
           </h3>
-          <Header
+          <ImgContainer
             shakeHeader={this.state.shakeit}
             pictures={
               this.state.cards.map(picture => (
